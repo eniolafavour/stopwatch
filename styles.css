@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.stopwatchDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.timerDisplay {
+    font-size: 4rem;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 12px 24px;
+    border-radius:5px ;
+    background-color: black;
+    margin: 2px;
+}
