@@ -24,7 +24,7 @@ h1 {
 
 }
 
-.timerDisplay {
+#timerDisplay {
     font-size: 4rem;
     color: white;
 }
